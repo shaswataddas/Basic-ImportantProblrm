@@ -27,4 +27,4 @@ for i in range(len(num)):
 		esum+=int(num[i]) 
 	else: 
 		osum = int(num[i])+osum
-print(osum-esum)  
+print(max(osum,esum)-min(esum,osum)) 
